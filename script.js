@@ -1,13 +1,13 @@
 //...
 const nouveauContact = {
     nomClient:document.getElementById('nomClient'). value,
-    titreprojet:getElementById('titreProjet'). value,
+    titreProjet:getElementById('titreProjet'). value,
     numéroContact:getElementById('numéroContact'). value,
     detailProjet:getElementById('detailProjet'). value
 
 } ;
 //...
-function afficherContact() { 
+function afficherContact() {
     //...
     liste . innerHTML+=`<li${c .nomClient} - ${c . titreprojet} - ${c.numeroContact} - ${c .detailProjet}
                         <button onclick="updateContact(${index}) "Modifier </button> 
